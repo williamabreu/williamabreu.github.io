@@ -11,27 +11,32 @@ body {
 }
 
 .box-test {
-    background-color: azure;
-    border: 2px solid aquamarine;
-    padding: 30px;
-    margin: 15px;
-    height: 75vh;
+    background-color: lightskyblue;
+    border: 0.3vh solid midnightblue;
+    margin: 3vh;
+    height: 94vh;
 }
 
-.font-format {
+.font-title {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 32pt;
+    font-size: 6vh;
     margin-top: 30vh;
 }
 
-.footer {
-    margin: 30px;
-    height: 20vh;
+.font-subtitle {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4vh;
 }
 
-.font-footer {
-    text-align: right;
+.font-text {
+    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16pt;
+    font-size: 2.7vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
